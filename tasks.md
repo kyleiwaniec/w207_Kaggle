@@ -1,4 +1,5 @@
-**Models**:   
+**Models**:     
+---------
 Multinomial Naive Bayes - Jackson   
 Multinomial Logistic Regression - Amit   
 GMM - Kyle   
