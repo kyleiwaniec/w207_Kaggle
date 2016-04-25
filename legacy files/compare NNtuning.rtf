@@ -1,0 +1,151 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1348\cocoasubrtf170
+{\fonttbl\f0\fmodern\fcharset0 Courier-Bold;\f1\fmodern\fcharset0 Courier;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;\red255\green255\blue255;}
+\margl1440\margr1440\vieww19480\viewh15760\viewkind0
+\deftab720
+\pard\pardeftab720\sl340
+
+\f0\b\fs28 \cf0 \expnd0\expndtw0\kerning0
+Dense
+\f1\b0 \cf2 \cb3 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \strokec2 \
+\pard\pardeftab720\sl340
+
+\f0\b \cf2 N_EPOCHS=50\
+N_HN=1024\
+N_LAYERS=1\
+DP=0.5
+\f1\b0 \
+Train on 438991 samples, validate on 438988 samples\
+Epoch 1/100\
+240s - loss: 2.3160 - val_loss: 2.2232\
+Epoch 2/100\
+236s - loss: 2.2731 - val_loss: 2.2319\
+Epoch 3/100\
+244s - loss: 2.2611 - val_loss: 2.2255\
+Epoch 4/100\
+225s - loss: 2.2523 - val_loss: 2.2352\
+Epoch 5/100\
+227s - loss: 2.2463 - val_loss: 2.2331\
+Epoch 6/100\
+233s - loss: 2.2436 - val_loss: 2.2483\
+Epoch 7/100\
+239s - loss: 2.2400 - val_loss: 2.2471\
+Epoch 8/100\
+240s - loss: 2.2380 - val_loss: 2.2416\
+Epoch 9/100\
+27156s - loss: 2.2371 - val_loss: 2.2431\
+Epoch 10/100\
+242s - loss: 2.2362 - val_loss: 2.2420\
+Epoch 11/100\
+242s - loss: 2.2351 - val_loss: 2.2743\
+Epoch 12/100\
+\pard\pardeftab720\sl340
+\cf0 \cb1 \expnd0\expndtw0\kerning0
+\outl0\strokewidth0 \
+
+\f0\b \
+\
+MaxoutDense, 64 nodes, 10 epochs
+\f1\b0 \
+\
+Train on 438991 samples, validate on 438988 samples\
+Epoch 1/20\
+15s - loss: 2.4681 - val_loss: 2.2534\
+Epoch 2/20\
+14s - loss: 2.3277 - val_loss: 2.2362\
+Epoch 3/20\
+14s - loss: 2.3146 - val_loss: 2.2295\
+Epoch 4/20\
+14s - loss: 2.3071 - val_loss: 2.2276\
+Epoch 5/20\
+14s - loss: 2.3030 - val_loss: 2.2233\
+Epoch 6/20\
+13s - loss: 2.2988 - val_loss: 2.2208\
+Epoch 7/20\
+14s - loss: 2.2975 - val_loss: 2.2232\
+Epoch 8/20\
+14s - loss: 2.2951 - val_loss: 2.2204\
+Epoch 9/20\
+15s - loss: 2.2934 - val_loss: 2.2184\
+Epoch 10/20\
+14s - loss: 2.2916 - val_loss: 2.2160\
+\
+\
+
+\f0\b Dense, 64 nodes, 10 epochs\
+
+\f1\b0 \
+Train on 438991 samples, validate on 438988 samples\
+Epoch 1/10\
+14s - loss: 2.4740 - val_loss: 2.2568\
+Epoch 2/10\
+13s - loss: 2.3297 - val_loss: 2.2398\
+Epoch 3/10\
+14s - loss: 2.3139 - val_loss: 2.2295\
+Epoch 4/10\
+14s - loss: 2.3070 - val_loss: 2.2273\
+Epoch 5/10\
+13s - loss: 2.3019 - val_loss: 2.2240\
+Epoch 6/10\
+13s - loss: 2.2985 - val_loss: 2.2221\
+Epoch 7/10\
+13s - loss: 2.2967 - val_loss: 2.2231\
+Epoch 8/10\
+13s - loss: 2.2948 - val_loss: 2.2200\
+Epoch 9/10\
+13s - loss: 2.2945 - val_loss: 2.2184\
+Epoch 10/10\
+\
+\
+
+\f0\b MaxoutDense, 64 nodes, 10 epochs\
+W_regularizer=l2(0.01)\
+LeakyReLu\
+ParametricSoftplus\
+
+\f1\b0 Train on 438991 samples, validate on 438988 samples\
+Epoch 1/10\
+37s - loss: 2.7210 - val_loss: 2.2889\
+Epoch 2/10\
+29s - loss: nan - val_loss: nan\
+Epoch 3/10\
+28s - loss: nan - val_loss: nan\
+Epoch 4/10\
+28s - loss: nan - val_loss: nan\
+Epoch 5/10\
+28s - loss: nan - val_loss: nan\
+Epoch 6/10\
+\
+\
+
+\f0\b Dense, 64 nodes, 10 epochs\
+activation tanh\
+
+\f1\b0 Train on 438991 samples, validate on 438988 samples\
+Epoch 1/10\
+27s - loss: 8.9846 - val_loss: 7.2993\
+Epoch 2/10\
+28s - loss: 8.2714 - val_loss: 8.3360\
+Epoch 3/10\
+28s - loss: 7.7658 - val_loss: 7.8668\
+Epoch 4/10\
+30s - loss: 7.4357 - val_loss: 6.7008\
+Epoch 5/10\
+\
+
+\f0\b Dense, 64 nodes, 10 epochs\
+activation relu\
+sigmoid
+\f1\b0 \
+\
+Train on 438991 samples, validate on 438988 samples\
+Epoch 1/10\
+29s - loss: 2.9155 - val_loss: 2.6039\
+Epoch 2/10\
+33s - loss: nan - val_loss: nan\
+Epoch 3/10\
+34s - loss: nan - val_loss: nan\
+Epoch 4/10\
+\
+}
