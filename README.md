@@ -16,7 +16,10 @@ __Ensemble code__
 https://github.com/kyleiwaniec/w207_Kaggle/blob/master/ensemble.ipynb
 
 __Presentation__   
-https://github.com/kyleiwaniec/w207_Kaggle/blob/master/San%20Fran%20Crime%20Final%20Presentation.pdf   
+https://github.com/kyleiwaniec/w207_Kaggle/blob/master/San%20Fran%20Crime%20Final%20Presentation.pdf      
+
+__Kaggle rank__   
+15 / 1842  
 
 
 
